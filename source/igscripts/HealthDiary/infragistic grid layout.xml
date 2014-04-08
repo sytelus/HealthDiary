@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<UltraWebGrid xmlns="urn:www.infragistics.com">
+   <DisplayLayout SelectTypeCellDefault="NotSet" AllowAddNewDefault="Yes" AllowDeleteDefault="Yes" AllowUpdateDefault="Yes" AutoGenerateColumns="false" BorderCollapseDefault="Collapse" CellClickActionDefault="Edit" ColFootersVisibleDefault="NotSet" EnableInternalRowsManagement="true" RowSizingDefault="Free" Version="3.00" RowHeightDefault="20px">
+      <AddNewBox Hidden="false" Location="Top" Prompt="Add A Diary Entry...">
+         <ButtonStyle BackColor="-360334" />
+         <Style BackColor="-2894893" ForeColor="-16777088" BorderStyle="Solid" BorderWidth="1px" Font-Size="" Font-Underline="True">
+            <BorderDetails ColorTop="-1" ColorLeft="-1" WidthTop="1px" WidthLeft="1px" />
+         </Style>
+      </AddNewBox>
+      <GroupByBox Location="Top">
+         <BandLabelStyle />
+      </GroupByBox>
+      <ActivationObject AllowActivation="True" BorderColor="-16777216" BorderStyle="Solid" BorderWidth="1px" />
+      <FrameStyle BorderStyle="Solid" BorderWidth="1px" Height="200px" Width="325px" Font-Name="Verdana" Font-Names="Verdana" Font-Size="8pt" />
+      <EditCellStyleDefault BorderStyle="None" BorderWidth="0px" />
+      <HeaderStyleDefault BackColor="-2894893" BorderStyle="Solid">
+         <BorderDetails ColorTop="-1" ColorLeft="-1" WidthTop="1px" WidthLeft="1px" />
+      </HeaderStyleDefault>
+      <FooterStyleDefault BackColor="-2894893" BorderStyle="Solid" BorderWidth="1px">
+         <BorderDetails ColorTop="-1" ColorLeft="-1" WidthTop="1px" WidthLeft="1px" />
+      </FooterStyleDefault>
+      <RowStyleDefault BorderColor="-8355712" BorderStyle="Solid" BorderWidth="1px">
+         <BorderDetails WidthTop="0px" WidthLeft="0px" />
+         <Padding Left="3px" />
+      </RowStyleDefault>
+      <ImageUrls ImageDirectory="/ig_common/WebGrid3/" />
+   </DisplayLayout>
+</UltraWebGrid>

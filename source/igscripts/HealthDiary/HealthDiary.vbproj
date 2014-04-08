@@ -1,0 +1,342 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Web"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{63F2F684-9D51-4010-9E49-A79CD79EAA3A}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "HealthDiary"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "On"
+                RootNamespace = "HealthDiary"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                />
+                <Reference
+                    Name = "SyFastPage"
+                    AssemblyName = "SyFastPage"
+                    HintPath = "..\SyFastPage\bin\SyFastPage.dll"
+                />
+                <Reference
+                    Name = "Infragistics.WebUI.UltraWebGrid.v3"
+                    AssemblyName = "Infragistics.WebUI.UltraWebGrid.v3"
+                    HintPath = "..\..\..\program files\infragistics\ultrawebgrid\v3.00\Infragistics.WebUI.UltraWebGrid.v3.DLL"
+                    AssemblyFolderKey = "hklm\infragistics.webui.ultrawebgrid.v3.00.20041"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "Infragistics.WebUI.Design.v1"
+                    AssemblyName = "Infragistics.WebUI.Design.v1"
+                    HintPath = "..\..\..\Program Files\Common Files\Infragistics\Web\Design\v1.00\Infragistics.WebUI.Design.v1.dll"
+                    AssemblyFolderKey = "hklm\infragistics.webui.design.v1.00.20041"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "Infragistics.WebUI.Shared.v2"
+                    AssemblyName = "Infragistics.WebUI.Shared.v2"
+                    HintPath = "..\..\..\Program Files\Common Files\Infragistics\Web\Shared\v2.00\Infragistics.WebUI.Shared.v2.dll"
+                    AssemblyFolderKey = "hklm\infragistics.webui.shared.v2.00.20041"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Windows.Forms.dll"
+                />
+                <Reference
+                    Name = "System.Design"
+                    AssemblyName = "System.Design"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Design.dll"
+                />
+                <Reference
+                    Name = "infragistics.webui.ultrawebchart.v4"
+                    AssemblyName = "Infragistics.WebUI.UltraWebChart.v4"
+                    HintPath = "..\..\..\program files\infragistics\ultrawebchart\v4.00\infragistics.webui.ultrawebchart.v4.dll"
+                    AssemblyFolderKey = "hklm\infragistics.webui.ultrawebchart.v4.00.20041"
+                />
+                <Reference
+                    Name = "Infragistics.UltraChart.Resources.v4"
+                    AssemblyName = "Infragistics.UltraChart.Resources.v4"
+                    HintPath = "..\..\..\Program Files\Infragistics\UltraWinChart\v4.00\Infragistics.UltraChart.Resources.v4.dll"
+                    AssemblyFolderKey = "hklm\infragistics.win.ultrawinchart.v4.00.20041"
+                />
+                <Reference
+                    Name = "Infragistics.UltraChart.Core.v4"
+                    AssemblyName = "Infragistics.UltraChart.Core.v4"
+                    HintPath = "..\..\..\Program Files\Infragistics\UltraWinChart\v4.00\Infragistics.UltraChart.Core.v4.dll"
+                    AssemblyFolderKey = "hklm\infragistics.win.ultrawinchart.v4.00.20041"
+                />
+                <Reference
+                    Name = "Infragistics.UltraChart.Render.v4"
+                    AssemblyName = "Infragistics.UltraChart.Render.v4"
+                    HintPath = "..\..\..\Program Files\Infragistics\UltraWinChart\v4.00\Infragistics.UltraChart.Render.v4.dll"
+                    AssemblyFolderKey = "hklm\infragistics.win.ultrawinchart.v4.00.20041"
+                />
+                <Reference
+                    Name = "Infragistics.UltraChart.Render.ActiveImage.v4"
+                    AssemblyName = "Infragistics.UltraChart.Render.ActiveImage.v4"
+                    HintPath = "..\..\..\Program Files\Infragistics\UltraWebChart\v4.00\Infragistics.UltraChart.Render.ActiveImage.v4.dll"
+                    AssemblyFolderKey = "hklm\infragistics.webui.ultrawebchart.v4.00.20041"
+                />
+                <Reference
+                    Name = "Infragistics.UltraChart.Data.v4"
+                    AssemblyName = "Infragistics.UltraChart.Data.v4"
+                    HintPath = "..\..\..\Program Files\Infragistics\UltraWinChart\v4.00\Infragistics.UltraChart.Data.v4.dll"
+                    AssemblyFolderKey = "hklm\infragistics.win.ultrawinchart.v4.00.20041"
+                />
+                <Reference
+                    Name = "Infragistics.WebUI.WebDateChooser.v1.1"
+                    AssemblyName = "Infragistics.WebUI.WebDateChooser.v1.1"
+                    HintPath = "..\..\..\Program Files\Infragistics\WebSchedule\v1.1\Infragistics.WebUI.WebDateChooser.v1.1.dll"
+                    AssemblyFolderKey = "hklm\infragistics.webui.webschedule.v1.1.20041"
+                />
+                <Reference
+                    Name = "infragistics.webui.webcombo.v3"
+                    AssemblyName = "infragistics.webui.webcombo.v3"
+                    HintPath = "..\..\..\program files\infragistics\ultrawebgrid\v3.00\infragistics.webui.webcombo.v3.dll"
+                    AssemblyFolderKey = "hklm\infragistics.webui.ultrawebgrid.v3.00.20041"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+                <Import Namespace = "System.Collections" />
+                <Import Namespace = "System.Configuration" />
+                <Import Namespace = "System.Data" />
+                <Import Namespace = "System.Drawing" />
+                <Import Namespace = "System.Web" />
+                <Import Namespace = "System.Web.UI" />
+                <Import Namespace = "System.Web.UI.HtmlControls" />
+                <Import Namespace = "System.Web.UI.WebControls" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "default.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "default.aspx.vb"
+                    DependentUpon = "default.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "default.aspx.resx"
+                    DependentUpon = "default.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "diary.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "diary.aspx.vb"
+                    DependentUpon = "diary.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "diary.aspx.resx"
+                    DependentUpon = "diary.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EvaluateNow.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "EvaluateNow.aspx.vb"
+                    DependentUpon = "EvaluateNow.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EvaluateNow.aspx.resx"
+                    DependentUpon = "EvaluateNow.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.vb"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax.resx"
+                    DependentUpon = "Global.asax.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "goal.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "goal.aspx.vb"
+                    DependentUpon = "goal.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "goal.aspx.resx"
+                    DependentUpon = "goal.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HealthDiaryPageBase.vb"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "images.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "licenses.licx"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "LoginBox.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "LoginBox.ascx.vb"
+                    DependentUpon = "LoginBox.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "LoginBox.ascx.resx"
+                    DependentUpon = "LoginBox.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "logo.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "page_template.htm"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "PreAssessment.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "PreAssessment.aspx.vb"
+                    DependentUpon = "PreAssessment.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "PreAssessment.aspx.resx"
+                    DependentUpon = "PreAssessment.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "register.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "register.aspx.vb"
+                    DependentUpon = "register.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "register.aspx.resx"
+                    DependentUpon = "register.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Styles.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SySimpleMenu.xml"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
+
